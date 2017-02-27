@@ -71,7 +71,7 @@ supportURL = "www.codershigh.com"
 
 var bookDescription:String = "\(title)"
 if let theRatings = ratings {
-	bookDescription += "has \(theRatings) ratiings"
+	bookDescription += "has \(theRatings.count) ratiings"
 }
 
 bookDescription += "\r\nsupport web page : \(supportURL)"
