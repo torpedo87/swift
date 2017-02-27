@@ -120,7 +120,7 @@ let capacities=[Int](roomCapacity.values)
 ***
 3. Set(순서 없는 배열) - 집합연산이 용이
 ```swift
-/set
+//set
 let subway2:Set =["시청", "을지로", "신도림"]
 let subway1:Set =["개봉", "신도림", "영등포"]
 //교집합
