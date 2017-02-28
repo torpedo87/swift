@@ -1,4 +1,4 @@
-# Function
+# Function(중복되는 코드를 정리하기 위해 사용)
 ```swift
 var title : String = "Storyboard"
 var ratings : [Double]? = nil
