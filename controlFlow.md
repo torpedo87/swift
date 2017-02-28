@@ -1,4 +1,4 @@
-# if
+# [if](http://swift.leantra.kr/#control-flow)
 ```swift
 let subway2:Set =["시청", "을지로", "신도림"]
 let subway1:Set =["개봉", "신도림", "영등포"]
@@ -11,8 +11,9 @@ if transfer.count > 0 {
 ```
 ***
 
-# for
+# for(for 요소 in list)
 ```swift
+//repeat while (javascript의 do while과 같다)
 let subway2:Set =["시청", "을지로", "신도림"]
 for station in subway2 {
 	print("이번역은 \(station)입니다")
@@ -27,6 +28,7 @@ var roomCapacity:[String:Int]=["jun":5, "minha":3, "wala":6]
 for (roomName, capacity) in roomCapacity {
 	let roomDescription:String
 	switch capacity {
+		// 1...100(1이상 100이하), 1..<100(1이상 100미만)
 		case 3:
 		roomDescription = "\(roomName)은 스터디 룸이며 정원은 \(capacity)명 입니다"
 		case 4...10:
