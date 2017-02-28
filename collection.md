@@ -42,7 +42,7 @@ print(description)
 ```
 ***
 
-# tuple(여러 값을 묶어서 사용하는 타입)
+# tuple(배열과 비슷하나 소괄호 사용, 길이 변경 불가)
 ```swift
 let time1 = (9,0,48)
 time1.0
