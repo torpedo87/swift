@@ -1,4 +1,4 @@
-# 구조체(값이 복사된다)
+# Struct(값이 복사된다, 여러 데이터를 한꺼번에)
 ```swift
 struct Task {
 	var title:String
