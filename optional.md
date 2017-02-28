@@ -21,6 +21,7 @@ print("\(bookDescription)")
 ##1. if let(optional binding)
 ```swift
 // ! 를 줄이기(optional binding)
+//if let num = number{}    =   if number != nil {let num = number!}
 if let theRatings = ratings {
 	bookDescription += "has \(theRatings) ratiings"
 }
