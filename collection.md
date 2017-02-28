@@ -42,7 +42,7 @@ print(description)
 ```
 ***
 
-# tuple
+# tuple(여러 값을 묶어서 사용하는 타입)
 ```swift
 let time1 = (9,0,48)
 time1.0
@@ -66,7 +66,7 @@ let times = ironMan.cycle/sprint.cycle
 ***
 
 # Collection
-1. Array
+1. Array(순서대로 접근)
 ```swift
 //array 선언
 var meetingRooms:Array<String> = ["jun","minha","wala"]
@@ -100,7 +100,7 @@ speedHistory += [150]
 
 ```
 ***
-2. Dictionary
+2. Dictionary(key로 접근)
 ```swift
 var roomCapacity:[String:Int]=["jun":5, "minha":3, "wala":6]
 
@@ -118,7 +118,7 @@ let capacities=[Int](roomCapacity.values)
 
 ```
 ***
-3. Set(순서 없는 배열) - 집합연산이 용이
+3. Set(순서 없는 배열, 값이 포함되어있는지 확인) - 집합연산이 용이
 ```swift
 //set
 let subway2:Set =["시청", "을지로", "신도림"]

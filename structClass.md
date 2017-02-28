@@ -1,4 +1,4 @@
-# Struct(값이 복사된다, 여러 데이터를 한꺼번에)
+# Struct(값이 복사된다, 여러 데이터를 한꺼번에, 상속불가)
 ```swift
 struct Task {
 	var title:String
@@ -28,7 +28,7 @@ print("tryCar의 모델 명은 \(tryCar.name)이고, 총 주행 거리는 \(tryC
 ```
 ***
 
-# Class(참조)
+# Class(참조, 상속가능) (class = 우유,  object = 바나나우유)
 ```swift
 struct Task {
 	var title:String
