@@ -65,7 +65,7 @@ let times = ironMan.cycle/sprint.cycle
 ```
 ***
 
-# Collection
+# [Collection](http://swift.leantra.kr/#collection-types)
 1. Array(순서대로 접근)
 ```swift
 //array 선언
@@ -100,7 +100,7 @@ speedHistory += [150]
 
 ```
 ***
-2. Dictionary(key로 접근)
+2. Dictionary(key로 접근, 대괄호사용)
 ```swift
 var roomCapacity:[String:Int]=["jun":5, "minha":3, "wala":6]
 
