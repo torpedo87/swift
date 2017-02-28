@@ -19,6 +19,28 @@ for station in subway2 {
 	print("이번역은 \(station)입니다")
 }
 
+
+//구구단
+for dan in 1...9 {
+	print("\(dan)단")
+	for num in 1...9 {
+		print("\(dan)*\(num)=\(dan*num)")
+	}
+}
+
+//학점계산기
+var scores = [30, 10, 60, 70, 80, 80]
+var (a,b,c) = (0,0,0)
+for score in scores {
+	if score >= 80 {
+		a += 1
+	} else if score >= 60 {
+		b += 1
+	} else {
+		c += 1
+	}
+}
+print("A=\(a)명, B=\(b)명, C=\(c)명")
 ```
 ***
 
